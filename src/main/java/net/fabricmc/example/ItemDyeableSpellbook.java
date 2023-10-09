@@ -15,4 +15,9 @@ public class ItemDyeableSpellbook extends ItemSpellbook
     public int getColor(ItemStack stack){
         return 0;
     }
+
+    @Override
+    public int getDyeColor(ItemStack stack) {
+        return 0;
+    }
 }
